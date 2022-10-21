@@ -8,11 +8,11 @@
 
 
 // EX 1:
-function nameQuestion() {
-  console.log("Hello, what is your name?")
+function nameQuestion(first, last) {
+  console.log(`Hello, what is your name?`)
 }
 
-nameQuestion()
+nameQuestion("Tom", "Doder")
 
 
 // EX 2:
