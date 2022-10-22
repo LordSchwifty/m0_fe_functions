@@ -29,7 +29,7 @@ checkStock(1, "Salsa");
 
 
 function kitchenStock(Coffee, Tortillas, Cheese, Salsa) {
-    console.log(`The ${Coffee} is stocked`);
+    console.log(` ${Coffee} is stocked`);
     console.log(` ${Tortillas} - running LOW`);
     console.log(` ${Cheese} - OUT of stock!`);
     console.log(` ${Salsa} - running LOW`);
