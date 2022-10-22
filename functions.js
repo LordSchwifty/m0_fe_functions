@@ -1,6 +1,8 @@
 // 1: Write a function named printGreeting that prints a simple greeting message, the same one, every time it is called. Call this function 3 times.
-
-
+function printGreeting(first, last) {
+    console.log(`Hi ${first} ${last} welcome to summercamp!`);
+}
+     printGreeting("Tom", "Doder")
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
 
 
