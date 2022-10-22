@@ -8,30 +8,39 @@
 
 
 // EX 1:
-function nameQuestion(first, last) {
-  console.log(`Hello, what is your name?`)
+function nameQuestion () {
+  console.log("Hello, what is your name?")
+  console.log("My name is Tom Doder")
 }
 
-nameQuestion("Tom", "Doder")
-
+nameQuestion();
+// I changed the code to add another ```console.log``` that gives the answer to the questio
+// 
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
-console.log(sum);
-      }
-
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
-
+function addThreeNums(num1, num2, num3) {
+  var sum = num1 + num2 + num3; 
+  return sum;
+  }
+  
+  console.log(addThreeNums(1, 2, 3));
+  console.log(addThreeNums(4, 2, 7));
+// I changed the number element to num1,num2,num3 to help identify the numbers better
+// and i changed the execution code to "return sum" and then i changed the final part to
+// "console.log" statement
 
 // EX 3:
-func makeFreshPesto(){
+func makeFreshPesto()
+  
+    var avg = sum / 2; {
+
+  console.log(`the average is: ${avg}`.)
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
 
@@ -40,7 +49,3 @@ makeFreshPesto();
 function average(num1, num2) 
   {
 var sum = num1 + num2;
-    var avg = sum / 2;
-
-  console.log(`the average is: ${avg}`.)
-  }
