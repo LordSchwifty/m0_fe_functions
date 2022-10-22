@@ -4,7 +4,11 @@ function printGreeting(first, last) {
 }
      printGreeting("Tom", "Doder")
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
-
+function friends(first, second, third) {
+    console.log(`My best friends are ${first}, ${second}, and ${third}`);
+  }
+  
+  friends("Jack", "Max", "Will");
 
 // 3: Write a function that has 3 parameters: a string and two numbers. The String will be the name of a company, and the numbers will represent the minimum and maximum of a pay range for a posted job. The function should print out a sentence that includes the name of the company and the range itself (if the numbers passed in are 90000 and 110000, the pay range is 20000).
 
@@ -22,3 +26,12 @@ checkStock(0, "Cheese");
 
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
+
+
+function kitchenStock(Coffee, Tortillas, Cheese, Salsa) {
+    console.log(`The ${Coffee} is stocked`);
+    console.log(` ${Tortillas} - running LOW`);
+    console.log(` ${Cheese} - OUT of stock!`);
+    console.log(` ${Salsa} - running LOW`);
+}
+    kitchenStock("Coffee", "Tortillas", "Cheese", "Salsa");
