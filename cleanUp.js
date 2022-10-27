@@ -9,8 +9,8 @@
 
 // EX 1:
 function nameQuestion () {
-  console.log("Hello, what is your name?")
-  console.log("My name is Tom Doder")
+ console.log("Hello, what is your name?");
+  console.log("My name is Tom Doder");
 }
 
 nameQuestion();
@@ -19,27 +19,27 @@ nameQuestion();
 
 // EX 2:
 function addThreeNums(num1, num2, num3) {
-  var sum = num1 + num2 + num3; 
-  return sum;
-  }
+var sum = num1 + num2 + num3; 
+return sum;
+}
   
-  console.log(addThreeNums(1, 2, 3));
-  console.log(addThreeNums(4, 2, 7));
+ console.log(addThreeNums(1, 2, 3));
+ console.log(addThreeNums(4, 2, 7));
 // I changed the number element to num1,num2,num3 to help identify the numbers better
 // and i changed the execution code to "return sum" and then i changed the final part to
 // "console.log" statement
 
 // EX 3:
 function makeFreshPesto() {
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+ console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   
-  console.log("Pulse basil and pine nuts");
+ console.log("Pulse basil and pine nuts");
   
-  console.log("Add garlic and cheeses");
+ console.log("Add garlic and cheeses");
   
-  console.log("Slowly pour in oil");
+ console.log("Slowly pour in oil");
   
-  console.log("Season");
+ console.log("Season");
 }
 
 makeFreshPesto();
@@ -49,13 +49,12 @@ makeFreshPesto();
 
 //  EX 4:
 
-
-    function average(num1, num2) {
-      var sum = num1 + num2
-      var avg = sum / 2
-          console.log(`the average is: ${avg}`)
-        }
+function average(num1, num2) {
+var sum = num1 + num2;
+var avg = sum / 2;
+ console.log(`the average is: ${avg}`);
+}
        
-     average(2,3);
+average(2,3);
      //Here i reordered the code. Put the curly brackets in the correct places. Took the period off
 //the end of the "console.log statement" and rewrote the last statement.
