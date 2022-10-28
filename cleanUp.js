@@ -10,7 +10,7 @@
 // EX 1:
 function nameQuestion () {
  console.log("Hello, what is your name?");
-  console.log("My name is Tom Doder");
+ console.log("My name is Tom Doder");
 }
 
 nameQuestion();
@@ -56,5 +56,5 @@ var avg = sum / 2;
 }
        
 average(2,3);
-     //Here i reordered the code. Put the curly brackets in the correct places. Took the period off
+     //ordered the code. Put the curly brackets in the correct places. Took the period off
 //the end of the "console.log statement" and rewrote the last statement.
